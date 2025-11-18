@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a748e9405d1fe748b3f60064475d081, type: 3}
+  m_Name: stations level
+  m_EditorClassIdentifier: 
+  gizmoColor: {r: 0.78431374, g: 0.7058824, b: 1, a: 1}
+  gizmoColorSecondary: {r: 0.6862745, g: 0.4117647, b: 0.8039216, a: 1}
+  forceClipSampleRate: 1
+  forcedSampleRate: 0
+  trackWs:
+  - id: station buzzer
+    name: station buzzer, 55.2 - 75.7
+    range: {x: 55.2, y: 75.7}
+    rangeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    gain: 20
+    attenuation: 0
+    forceGlobal: 1
+    playOnInit: 1
+    broadcasters: []
+    insulators: []
+    trackType: Audio Clip
+    track:
+      rid: 769389174646636614
+  - id: station cowbell
+    name: station cowbell, 357.4 - 377.9
+    range: {x: 357.4, y: 377.9}
+    rangeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    gain: 50
+    attenuation: 0
+    forceGlobal: 1
+    playOnInit: 1
+    broadcasters: []
+    insulators: []
+    trackType: Audio Clip
+    track:
+      rid: 769389174646636616
+  - id: station ring
+    name: station ring, 525.6 - 546.1
+    range: {x: 525.6, y: 546.1}
+    rangeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    gain: 50
+    attenuation: 0
+    forceGlobal: 1
+    playOnInit: 1
+    broadcasters: []
+    insulators: []
+    trackType: Audio Clip
+    track:
+      rid: 769389174646636618
+  - id: station siren
+    name: station siren, 915.9 - 936.4
+    range: {x: 915.9, y: 936.4}
+    rangeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    gain: 25
+    attenuation: 0
+    forceGlobal: 1
+    playOnInit: 1
+    broadcasters: []
+    insulators: []
+    trackType: Audio Clip
+    track:
+      rid: 769389174646636619
+  - id: static
+    name: static, 0 - 1000
+    range: {x: 0, y: 1000}
+    rangeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    gain: 56
+    attenuation: 0.869
+    forceGlobal: 1
+    playOnInit: 1
+    broadcasters: []
+    insulators: []
+    trackType: Procedural
+    track:
+      rid: 769389085101916236
+  references:
+    version: 2
+    RefIds:
+    - rid: 769389085101916236
+      type: {class: ProceduralRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
+      data:
+        proceduralType: 2
+        duration: 0
+        waveFrequency: 100
+        brownWalkPower: 0.749
+    - rid: 769389174646636614
+      type: {class: ClipRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
+      data:
+        clip: {fileID: 8300000, guid: 231190dcb8eec494e90a903bdaf12604, type: 3}
+    - rid: 769389174646636616
+      type: {class: ClipRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
+      data:
+        clip: {fileID: 8300000, guid: 1e9408156ab167d47bba261146e0adba, type: 3}
+    - rid: 769389174646636618
+      type: {class: ClipRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
+      data:
+        clip: {fileID: 8300000, guid: ac1385466cdaada40a1a712bdd4b670d, type: 3}
+    - rid: 769389174646636619
+      type: {class: ClipRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
+      data:
+        clip: {fileID: 8300000, guid: 1e2991a9c7147f844a4b242652c37117, type: 3}
