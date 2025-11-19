@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-8970701092565812368
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: piercing the drum_{-8970701092565812368}
+  m_AudioClip: {fileID: 8300000, guid: 8c5afe00432c0c8498b18a09ba7c8359, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-8908500139623434415
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: i cant hear myself_{-8908500139623434415}
+  m_AudioClip: {fileID: 8300000, guid: 30601e72ec172e94283b0ba943da837d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-8455258848723725599
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: im scared who is it for_{-8455258848723725599}
+  m_AudioClip: {fileID: 8300000, guid: 3787da315db1cc84eafb36c237fc032c, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6148556499989378418
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: a siren cries it cries-2_{-6148556499989378418}
+  m_AudioClip: {fileID: 8300000, guid: 2a1c1c2fad6e0344691fe584fe4ffdc6, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6130197588790767760
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: im scared who is it for-3_{-6130197588790767760}
+  m_AudioClip: {fileID: 8300000, guid: 812b72a143012dc40a5b60d6489ec8fa, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6036203200405947099
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: the siren wails_{-6036203200405947099}
+  m_AudioClip: {fileID: 8300000, guid: 6182d5674822d22418b628af3035ba84, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3028921557067529207
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: a siren cries it cries_{-3028921557067529207}
+  m_AudioClip: {fileID: 8300000, guid: 3dfdfbdd17c81924d9022c5c57ed4425, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2002622502731411331
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: a siren cries it cries-4_{-2002622502731411331}
+  m_AudioClip: {fileID: 8300000, guid: ae99eab4de5061c4789324ee2a5f70d1, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &614643713950598833
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: it screams but i cant leave_{614643713950598833}
+  m_AudioClip: {fileID: 8300000, guid: 48833c0f84811a64a8f56575a3e3ad28, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &925137642205678655
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: it screams but i cant leave-3_{925137642205678655}
+  m_AudioClip: {fileID: 8300000, guid: 6b8bb74f83041b1429eca21b887aeeaa, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &936053127385966004
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: piercing the drum-4_{936053127385966004}
+  m_AudioClip: {fileID: 8300000, guid: 344fac2583b340c4cb429ef9b836a5da, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1395048748557376573
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: piercing the drum-3_{1395048748557376573}
+  m_AudioClip: {fileID: 8300000, guid: d2066789fe2ec3f44a433ad27f878ec6, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2563380532050459210
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: im scared who is it for-2_{2563380532050459210}
+  m_AudioClip: {fileID: 8300000, guid: e4e7519905e6d4b44a8f9b8ed01e10b6, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2851842726075204427
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: i cant hear myself-4_{2851842726075204427}
+  m_AudioClip: {fileID: 8300000, guid: 63d9f6b877a330e4da7bcdb857c2dfd5, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3075157789351459356
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: the siren wails-2_{3075157789351459356}
+  m_AudioClip: {fileID: 8300000, guid: d9b6bcc5e6e3be5409458931d494f297, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3558918906403010634
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: the siren wails-3_{3558918906403010634}
+  m_AudioClip: {fileID: 8300000, guid: b9532119729c9e147904da90d21e3010, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3695930627382080590
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: it screams but i cant leave-2_{3695930627382080590}
+  m_AudioClip: {fileID: 8300000, guid: 1f5db5507ff42e845bf0913d95bc15a1, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3839557819614110217
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: the siren wails-4_{3839557819614110217}
+  m_AudioClip: {fileID: 8300000, guid: a86669131cc881a47b0712e33f9f1a74, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5433340515888605751
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: i cant hear myself-3_{5433340515888605751}
+  m_AudioClip: {fileID: 8300000, guid: 8ecaba65b77f5f74a96285bdab2614b8, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &6090536669997493521
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: im scared who is it for-4_{6090536669997493521}
+  m_AudioClip: {fileID: 8300000, guid: caaf6c03de7efa64b94528bce14c9fa9, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SirenWhisperContainer
+  m_Volume: -7.5
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 1
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: -467.9245, y: 196.2264}
+  m_AutomaticTriggerTimeRandomizationRange: {x: -0.3, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -6148556499989378418}
+  - {fileID: 8650450905293135237}
+  - {fileID: -2002622502731411331}
+  - {fileID: -3028921557067529207}
+  - {fileID: 7447602461033389852}
+  - {fileID: 5433340515888605751}
+  - {fileID: 2851842726075204427}
+  - {fileID: -8908500139623434415}
+  - {fileID: 2563380532050459210}
+  - {fileID: -6130197588790767760}
+  - {fileID: 6090536669997493521}
+  - {fileID: -8455258848723725599}
+  - {fileID: 3695930627382080590}
+  - {fileID: 925137642205678655}
+  - {fileID: 9122218487850205097}
+  - {fileID: 614643713950598833}
+  - {fileID: 6966921898254900835}
+  - {fileID: 1395048748557376573}
+  - {fileID: 936053127385966004}
+  - {fileID: -8970701092565812368}
+  - {fileID: 3075157789351459356}
+  - {fileID: 3558918906403010634}
+  - {fileID: 3839557819614110217}
+  - {fileID: -6036203200405947099}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 0
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 1
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &6966921898254900835
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: piercing the drum-2_{6966921898254900835}
+  m_AudioClip: {fileID: 8300000, guid: 7edeeb2571e727e4d84918d7f9133c63, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &7447602461033389852
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: i cant hear myself-2_{7447602461033389852}
+  m_AudioClip: {fileID: 8300000, guid: 22a0342fd2433c044b799becb62bd6e3, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8650450905293135237
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: a siren cries it cries-3_{8650450905293135237}
+  m_AudioClip: {fileID: 8300000, guid: 02a8de0489b69bd4c8d2a026e414f288, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &9122218487850205097
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: it screams but i cant leave-4_{9122218487850205097}
+  m_AudioClip: {fileID: 8300000, guid: 5d0b603852751ba44a47797a9b3ad931, type: 3}
+  m_Volume: 0
+  m_Enabled: 1

@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-8844076340915548917
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: slices down the curtain-4_{-8844076340915548917}
+  m_AudioClip: {fileID: 8300000, guid: fd57e45375897554289174b73e9af379, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7890395452421535090
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: the ringing echoes_{-7890395452421535090}
+  m_AudioClip: {fileID: 8300000, guid: 14c7dbc798d3a434599ad2565312b5bd, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7107878728793420892
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: cutting slicing_{-7107878728793420892}
+  m_AudioClip: {fileID: 8300000, guid: ff70b78153d774748aaaf3862d4fcec9, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6415972610450031726
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: it's making me sick-3_{-6415972610450031726}
+  m_AudioClip: {fileID: 8300000, guid: 98b818b74c95acb4fb4c48837590259f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6157761588819532373
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: the ringing echoes-3_{-6157761588819532373}
+  m_AudioClip: {fileID: 8300000, guid: 2b0070579d4cc0742bb70ef0a06c20da, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5791664053682739210
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: it's making me sick-4_{-5791664053682739210}
+  m_AudioClip: {fileID: 8300000, guid: 55c6a074e7b4ca441ba14994fe72cb6d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5312448489727347966
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: the ringing echoes-2_{-5312448489727347966}
+  m_AudioClip: {fileID: 8300000, guid: d249b6e84d9bf414b87b574b4b8fe61b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5002524318477002468
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: cutting slicing-4_{-5002524318477002468}
+  m_AudioClip: {fileID: 8300000, guid: 7f742abc2cce1c947834ad781d564ee0, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4701493836313729703
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: cutting slicing-2_{-4701493836313729703}
+  m_AudioClip: {fileID: 8300000, guid: f318393a7637b4f4c9d583282d8ded68, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4428484064665622709
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: it's making me sick_{-4428484064665622709}
+  m_AudioClip: {fileID: 8300000, guid: f6cb78334ddd3fc488e601a5253f998a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2728033309719506444
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: slices down the curtain_{-2728033309719506444}
+  m_AudioClip: {fileID: 8300000, guid: ce05bf54dd6fda04cb234980c32041b1, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-593602290458864382
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: the ringing echoes-4_{-593602290458864382}
+  m_AudioClip: {fileID: 8300000, guid: 66244cc6249069b45a35a3edbe826783, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &629748121097647910
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: does the ring ever cease-4_{629748121097647910}
+  m_AudioClip: {fileID: 8300000, guid: 30e22f1652d632c41a62e4bee6fdd97e, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1224778063510623279
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: does the ring ever cease_{1224778063510623279}
+  m_AudioClip: {fileID: 8300000, guid: 271cb177906a0fb4eac801a147b0715a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1587639553397924373
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: cutting slicing-3_{1587639553397924373}
+  m_AudioClip: {fileID: 8300000, guid: 7cdc298d5419b624d9420f0ece7537b1, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2493187722651799807
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: it's making me sick-2_{2493187722651799807}
+  m_AudioClip: {fileID: 8300000, guid: 44878035161d51d47b954bcf91753f95, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2567224081374536064
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: slices down the curtain-3_{2567224081374536064}
+  m_AudioClip: {fileID: 8300000, guid: f78d001dfe1e7d04fb17181fee0e6426, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3324199665373744266
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: does the ring ever cease-2_{3324199665373744266}
+  m_AudioClip: {fileID: 8300000, guid: 309cf13eab4657c4683ef5f957d99a2b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3541397874320659019
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: where is the blade_{3541397874320659019}
+  m_AudioClip: {fileID: 8300000, guid: 46377386624535d459521b5d48a1d34e, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3615800763424687998
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: where is the blade-3_{3615800763424687998}
+  m_AudioClip: {fileID: 8300000, guid: b82c8336e5fce0845a6d902052c577fd, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3850143863264622325
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: slices down the curtain-2_{3850143863264622325}
+  m_AudioClip: {fileID: 8300000, guid: 892903ec676dfdd49a686204cd7c82ac, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3954007935556580241
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: where is the blade-2_{3954007935556580241}
+  m_AudioClip: {fileID: 8300000, guid: 3b188f449e6de974ba4dbf873168fd97, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RingWhisperContainer
+  m_Volume: -7.5
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 1
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: -467.9245, y: 196.2264}
+  m_AutomaticTriggerTimeRandomizationRange: {x: -0.3, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -4701493836313729703}
+  - {fileID: 1587639553397924373}
+  - {fileID: -5002524318477002468}
+  - {fileID: -7107878728793420892}
+  - {fileID: 3324199665373744266}
+  - {fileID: 8107484999208447033}
+  - {fileID: 629748121097647910}
+  - {fileID: 1224778063510623279}
+  - {fileID: 2493187722651799807}
+  - {fileID: -6415972610450031726}
+  - {fileID: -5791664053682739210}
+  - {fileID: -4428484064665622709}
+  - {fileID: 3850143863264622325}
+  - {fileID: 2567224081374536064}
+  - {fileID: -8844076340915548917}
+  - {fileID: -2728033309719506444}
+  - {fileID: -5312448489727347966}
+  - {fileID: -6157761588819532373}
+  - {fileID: -593602290458864382}
+  - {fileID: -7890395452421535090}
+  - {fileID: 3954007935556580241}
+  - {fileID: 3615800763424687998}
+  - {fileID: 7281561440156848365}
+  - {fileID: 3541397874320659019}
+  m_AvoidRepeatingLast: 7
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 0
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 1
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &7281561440156848365
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: where is the blade-4_{7281561440156848365}
+  m_AudioClip: {fileID: 8300000, guid: e8344f5ed58d33f4d93e261e3956736d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8107484999208447033
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: does the ring ever cease-3_{8107484999208447033}
+  m_AudioClip: {fileID: 8300000, guid: 9eb0ae8ff6a4fdc48be30590522195ae, type: 3}
+  m_Volume: 0
+  m_Enabled: 1

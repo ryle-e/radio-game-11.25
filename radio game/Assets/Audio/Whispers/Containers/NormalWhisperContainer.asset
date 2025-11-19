@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-8836619307550110640
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: dead hands_{-8836619307550110640}
+  m_AudioClip: {fileID: 8300000, guid: 5719a84f3484811448d6af843db87d23, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-8556241323540758588
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: do you hear us_{-8556241323540758588}
+  m_AudioClip: {fileID: 8300000, guid: 8d67f03e452dbc043a3b3bb8573db263, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-8099352310772483429
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: maybe it's listening-3_{-8099352310772483429}
+  m_AudioClip: {fileID: 8300000, guid: 9fee18f6e108b9f498082bc35d74687a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7920731745782556377
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: maybe it's listening_{-7920731745782556377}
+  m_AudioClip: {fileID: 8300000, guid: 73e0bd022bc78034dbde5ac8d6db0456, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7916682470559067744
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: do you hear us-4_{-7916682470559067744}
+  m_AudioClip: {fileID: 8300000, guid: ecb6e4a334fce05408b8df558c417d1f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7404819021184425489
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: maybe it's listening-4_{-7404819021184425489}
+  m_AudioClip: {fileID: 8300000, guid: 063794004f6bf0847818e3d1fb9d53f4, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6202825551121809759
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: dead hands-9_{-6202825551121809759}
+  m_AudioClip: {fileID: 8300000, guid: 52b4df2d34ff6024c892d8c4e3f806ad, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2609688866327507123
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: what does it seek to do here-2_{-2609688866327507123}
+  m_AudioClip: {fileID: 8300000, guid: 904fac7a6ff50d842b3cd26e476bba85, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2503772737490243260
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: dead hands-8_{-2503772737490243260}
+  m_AudioClip: {fileID: 8300000, guid: 8ab549fcb90f6df438a59bb8ff0ac159, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-450460546755446961
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: what does it seek to do here-3_{-450460546755446961}
+  m_AudioClip: {fileID: 8300000, guid: 21232fc5b8a732842b766324689efad8, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &454858452349038954
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: maybe it's listening-2_{454858452349038954}
+  m_AudioClip: {fileID: 8300000, guid: 840a0e58b4a017d48bbea748a300afe8, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &705990023583412216
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: dead hands-5_{705990023583412216}
+  m_AudioClip: {fileID: 8300000, guid: 7c393bbe1b129684e9faa3868e8d7e7e, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1729628383490272821
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: dead hands-10_{1729628383490272821}
+  m_AudioClip: {fileID: 8300000, guid: a977e1151c105314a976a7705b068075, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3948016773546460888
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: do you hear us-2_{3948016773546460888}
+  m_AudioClip: {fileID: 8300000, guid: d3bdee5ff64b5404fa1af144c7f584c6, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5586504101548832996
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: dead hands-7_{5586504101548832996}
+  m_AudioClip: {fileID: 8300000, guid: f7745f92eebd6f34f884d92ebe1b56fa, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5996952420719279007
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: dead hands-6_{5996952420719279007}
+  m_AudioClip: {fileID: 8300000, guid: 998e7d5944235e742be204d10c754949, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &6008408418797068015
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: dead hands-2_{6008408418797068015}
+  m_AudioClip: {fileID: 8300000, guid: a209b6b771a6e6a4c806ba864497e891, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &6198682243831599117
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: what does it seek to do here_{6198682243831599117}
+  m_AudioClip: {fileID: 8300000, guid: 014d47542f51c62468aef7883eede4f5, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NormalWhisperContainer
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 1
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: -467.9245, y: 196.2264}
+  m_AutomaticTriggerTimeRandomizationRange: {x: -0.3, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 6008408418797068015}
+  - {fileID: 6869936759081373467}
+  - {fileID: 9071779623750937380}
+  - {fileID: 705990023583412216}
+  - {fileID: 5996952420719279007}
+  - {fileID: 5586504101548832996}
+  - {fileID: -2503772737490243260}
+  - {fileID: -6202825551121809759}
+  - {fileID: 1729628383490272821}
+  - {fileID: -8836619307550110640}
+  - {fileID: 3948016773546460888}
+  - {fileID: 6832149667121162560}
+  - {fileID: -7916682470559067744}
+  - {fileID: -8556241323540758588}
+  - {fileID: 454858452349038954}
+  - {fileID: -8099352310772483429}
+  - {fileID: -7404819021184425489}
+  - {fileID: -7920731745782556377}
+  - {fileID: -2609688866327507123}
+  - {fileID: -450460546755446961}
+  - {fileID: 7421014854728234582}
+  - {fileID: 6198682243831599117}
+  m_AvoidRepeatingLast: 4
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 0
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 1
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &6832149667121162560
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: do you hear us-3_{6832149667121162560}
+  m_AudioClip: {fileID: 8300000, guid: 338b68d75466d9844a81402066d981ea, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &6869936759081373467
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: dead hands-3_{6869936759081373467}
+  m_AudioClip: {fileID: 8300000, guid: 753d31ae5ec76334984e3f4f0f3ab7d9, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &7421014854728234582
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: what does it seek to do here-4_{7421014854728234582}
+  m_AudioClip: {fileID: 8300000, guid: b6133f177626d364baada94e15de6e80, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &9071779623750937380
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: dead hands-4_{9071779623750937380}
+  m_AudioClip: {fileID: 8300000, guid: 0b33d3a829de6804886ec89ade51b85e, type: 3}
+  m_Volume: 0
+  m_Enabled: 1

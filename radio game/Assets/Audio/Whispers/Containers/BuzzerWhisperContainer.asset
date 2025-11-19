@@ -1,0 +1,335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-8758578445540531289
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: the buzzer blares-4_{-8758578445540531289}
+  m_AudioClip: {fileID: 8300000, guid: 2b87bbb2752d663409123cd3509fb113, type: 3}
+  m_Volume: 0
+  m_Enabled: 0
+--- !u!1233149941 &-8438601834198712374
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: so deafening it hurts-3_{-8438601834198712374}
+  m_AudioClip: {fileID: 8300000, guid: 31bb920201639dd4f8897c22ecad8e42, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-8431440754523172795
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: so deafening it hurts-5_{-8431440754523172795}
+  m_AudioClip: {fileID: 8300000, guid: 08c46c53ee2b3ea408713af56277f88e, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-7256310587463144788
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: leave my silence alone-2_{-7256310587463144788}
+  m_AudioClip: {fileID: 8300000, guid: 3b88fc2aedaefc1408c1db28da35df71, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6953775845093920575
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: stones in the horn-4_{-6953775845093920575}
+  m_AudioClip: {fileID: 8300000, guid: a30a0b0a6c29118429284c7fb4bad5a4, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-6039667132173400249
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: stones in the horn_{-6039667132173400249}
+  m_AudioClip: {fileID: 8300000, guid: b41d6bce5e491af4284df7c5a1c04046, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5784450976524440490
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: stones in the horn-2_{-5784450976524440490}
+  m_AudioClip: {fileID: 8300000, guid: 2927fb53bea62f147bc1ce23b24ac7d2, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5397101232145525814
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: so deafening it hurts_{-5397101232145525814}
+  m_AudioClip: {fileID: 8300000, guid: 4e094ac1e27fe9f4aaaac7b7db6317c6, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5243209297797821449
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: every tone is a fist_{-5243209297797821449}
+  m_AudioClip: {fileID: 8300000, guid: 7115e1deed22a9b429921d59b06ee4fb, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5023945721655990660
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: the buzzer blares-3_{-5023945721655990660}
+  m_AudioClip: {fileID: 8300000, guid: 136b63e8af043714b8a897515ccec24d, type: 3}
+  m_Volume: 0
+  m_Enabled: 0
+--- !u!1233149941 &-4647061978525915123
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: leave my silence alone-5_{-4647061978525915123}
+  m_AudioClip: {fileID: 8300000, guid: 359206f095914fa49905842c9ee2a857, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-3704944729931966035
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: uvb was the last_{-3704944729931966035}
+  m_AudioClip: {fileID: 8300000, guid: 3d5aa6ecfd6ac544ab950aff5be34f6e, type: 3}
+  m_Volume: 0
+  m_Enabled: 0
+--- !u!1233149941 &-3510004454297506859
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: the buzzer blares_{-3510004454297506859}
+  m_AudioClip: {fileID: 8300000, guid: 90c4f647ff45708478ab877d206c0d2c, type: 3}
+  m_Volume: 0
+  m_Enabled: 0
+--- !u!1233149941 &-2589852437144276378
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: so deafening it hurts-2_{-2589852437144276378}
+  m_AudioClip: {fileID: 8300000, guid: ad857b0742c8a3f4eb8a844aa8f49447, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2479631276246384685
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: every tone is a fist-4_{-2479631276246384685}
+  m_AudioClip: {fileID: 8300000, guid: edaf489cf6f93e9499a51d57d5cf4512, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-1797572464081838388
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: leave my silence alone_{-1797572464081838388}
+  m_AudioClip: {fileID: 8300000, guid: b79ec3847813d0040bc57d75cd47cd6b, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-883333935126244922
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: leave my silence alone-4_{-883333935126244922}
+  m_AudioClip: {fileID: 8300000, guid: 6114fbd54a189cb4985e8a48d396307f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-823184197914480523
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: it hears the buzzing-4_{-823184197914480523}
+  m_AudioClip: {fileID: 8300000, guid: 284f998135ec3ec439ad03e641570161, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-665965298308789412
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: the buzzer blares-2_{-665965298308789412}
+  m_AudioClip: {fileID: 8300000, guid: 085250031b4817447bf02c627913b796, type: 3}
+  m_Volume: 0
+  m_Enabled: 0
+--- !u!1233149941 &840035841969696449
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: every tone is a fist-2_{840035841969696449}
+  m_AudioClip: {fileID: 8300000, guid: 5fa919ff1052b9d41b9feea1e88247e1, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1451962651543710324
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: every tone is a fist-3_{1451962651543710324}
+  m_AudioClip: {fileID: 8300000, guid: 2c159689019c1524fb90a3133b532606, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2604578117598103549
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: leave my silence alone-3_{2604578117598103549}
+  m_AudioClip: {fileID: 8300000, guid: 03b8bd7794966624cbf166e24c9fb681, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3589085567391868258
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: so deafening it hurts-4_{3589085567391868258}
+  m_AudioClip: {fileID: 8300000, guid: bb00575e39e114147a31297e8546cdff, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5434396912891478316
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: stones in the horn-3_{5434396912891478316}
+  m_AudioClip: {fileID: 8300000, guid: 8064bc7c36c43cb4181f381b93bb0943, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5695833635495694021
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: it hears the buzzing-2_{5695833635495694021}
+  m_AudioClip: {fileID: 8300000, guid: 9170f2d12ff7f85419c8906e90de8ed1, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BuzzerWhisperContainer
+  m_Volume: -7.5
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 1
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: -467.9245, y: 196.2264}
+  m_AutomaticTriggerTimeRandomizationRange: {x: -0.3, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 7578515151478833699}
+  - {fileID: 840035841969696449}
+  - {fileID: 1451962651543710324}
+  - {fileID: -2479631276246384685}
+  - {fileID: -5243209297797821449}
+  - {fileID: 5695833635495694021}
+  - {fileID: 6849061927474882893}
+  - {fileID: -823184197914480523}
+  - {fileID: 6866086523019472575}
+  - {fileID: -7256310587463144788}
+  - {fileID: 2604578117598103549}
+  - {fileID: -883333935126244922}
+  - {fileID: -4647061978525915123}
+  - {fileID: -1797572464081838388}
+  - {fileID: -2589852437144276378}
+  - {fileID: -8438601834198712374}
+  - {fileID: 3589085567391868258}
+  - {fileID: -8431440754523172795}
+  - {fileID: -5397101232145525814}
+  - {fileID: -5784450976524440490}
+  - {fileID: 5434396912891478316}
+  - {fileID: -6953775845093920575}
+  - {fileID: -6039667132173400249}
+  - {fileID: -665965298308789412}
+  - {fileID: -5023945721655990660}
+  - {fileID: -8758578445540531289}
+  - {fileID: -3510004454297506859}
+  - {fileID: -3704944729931966035}
+  m_AvoidRepeatingLast: 8
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 0
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 1
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &6849061927474882893
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: it hears the buzzing-3_{6849061927474882893}
+  m_AudioClip: {fileID: 8300000, guid: 5c6b7aecaec5ca747914587833e9696f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &6866086523019472575
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: it hears the buzzing_{6866086523019472575}
+  m_AudioClip: {fileID: 8300000, guid: bae9378f9b967c740b7274e74a9fd552, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &7578515151478833699
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: an end to monolith_{7578515151478833699}
+  m_AudioClip: {fileID: 8300000, guid: 69fb28a05975bc54782562772a083a27, type: 3}
+  m_Volume: 0
+  m_Enabled: 0

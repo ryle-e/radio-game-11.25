@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-8132353602266637640
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: striking the metal-2_{-8132353602266637640}
+  m_AudioClip: {fileID: 8300000, guid: 736bda349d562e846830a36fabd1be6d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5205666333888213412
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: tapping on its skull-3_{-5205666333888213412}
+  m_AudioClip: {fileID: 8300000, guid: 3f8cb5fd23439d242a3bc1e39e6a2af5, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-4418407003195390032
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: the bell tolls-3_{-4418407003195390032}
+  m_AudioClip: {fileID: 8300000, guid: ae48b311d8339b34f9f84fdc8c20fedf, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2576263037518543161
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: what good is endlessness-4_{-2576263037518543161}
+  m_AudioClip: {fileID: 8300000, guid: 0bf42dcda9855e84db5845ac405e40f2, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2205427494060314276
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: tapping on its skull-4_{-2205427494060314276}
+  m_AudioClip: {fileID: 8300000, guid: 520a413402cef544fb8e35947f78d128, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-1864173313407949346
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: the bell tolls-2_{-1864173313407949346}
+  m_AudioClip: {fileID: 8300000, guid: ff30452b20a82464fa23a5c018cc1eaa, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-934497104821395550
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: tapping on its skull-2_{-934497104821395550}
+  m_AudioClip: {fileID: 8300000, guid: d205b490a358c9541bf2586b10294949, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-631302980196983615
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: tapping on its skull_{-631302980196983615}
+  m_AudioClip: {fileID: 8300000, guid: 73854a5fcbd331747b432724d7e2137a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-375013458277368817
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: let me rest please-4_{-375013458277368817}
+  m_AudioClip: {fileID: 8300000, guid: 9e4ed6b84dd1a6440b2d6bfe16704c14, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-259182817998199720
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: what good is endlessness-2_{-259182817998199720}
+  m_AudioClip: {fileID: 8300000, guid: 460d505493942fc4e8be4b8f09dcfee3, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-244254449102304881
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: the bell tolls-4_{-244254449102304881}
+  m_AudioClip: {fileID: 8300000, guid: 6dc2afe48f226c64e81d8cf5bae00956, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &726584104586877477
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: striking the metal-4_{726584104586877477}
+  m_AudioClip: {fileID: 8300000, guid: 8e6ed56796f8d6045a1b13105ed54fa0, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1210817671127554870
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: striking the metal-3_{1210817671127554870}
+  m_AudioClip: {fileID: 8300000, guid: f8584c59a557d4140ac9a33188763999, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1726935713679405716
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: let me rest please_{1726935713679405716}
+  m_AudioClip: {fileID: 8300000, guid: 6ae29f8e85a98b54d8e50d674e51e16a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1937768397709764851
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: let me rest please-3_{1937768397709764851}
+  m_AudioClip: {fileID: 8300000, guid: 26ee641cf730bc74e8bb0aa20a2a7152, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2297759192334158331
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: striking the metal_{2297759192334158331}
+  m_AudioClip: {fileID: 8300000, guid: 029a76234486a4b438eef09f33d7cf17, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2623280028939862401
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: what good is endlessness-3_{2623280028939862401}
+  m_AudioClip: {fileID: 8300000, guid: 71c6fdfede34fb849b11cacb32355745, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3130128340524294193
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: let me rest please-2_{3130128340524294193}
+  m_AudioClip: {fileID: 8300000, guid: 4a003e4f77bc9fa47aeab4e67c3ca253, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &4718316654943313388
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: bells in the air-3_{4718316654943313388}
+  m_AudioClip: {fileID: 8300000, guid: d66e6aaaf91be8d46b798dfc848f7fbe, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5777923857830197656
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: the bell tolls_{5777923857830197656}
+  m_AudioClip: {fileID: 8300000, guid: caa8d116f1b321744a3779432434ef7f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BellWhisperContainer
+  m_Volume: -7.5
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 1
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: -467.9245, y: 196.2264}
+  m_AutomaticTriggerTimeRandomizationRange: {x: -0.3, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 7748620521027082760}
+  - {fileID: 4718316654943313388}
+  - {fileID: 8939599829755430604}
+  - {fileID: 6843248413713120404}
+  - {fileID: 3130128340524294193}
+  - {fileID: 1937768397709764851}
+  - {fileID: -375013458277368817}
+  - {fileID: 1726935713679405716}
+  - {fileID: -8132353602266637640}
+  - {fileID: 1210817671127554870}
+  - {fileID: 726584104586877477}
+  - {fileID: 2297759192334158331}
+  - {fileID: -934497104821395550}
+  - {fileID: -5205666333888213412}
+  - {fileID: -2205427494060314276}
+  - {fileID: -631302980196983615}
+  - {fileID: -1864173313407949346}
+  - {fileID: -4418407003195390032}
+  - {fileID: -244254449102304881}
+  - {fileID: 5777923857830197656}
+  - {fileID: -259182817998199720}
+  - {fileID: 2623280028939862401}
+  - {fileID: -2576263037518543161}
+  - {fileID: 8335386047702184865}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 0
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 1
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &6843248413713120404
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: bells in the air_{6843248413713120404}
+  m_AudioClip: {fileID: 8300000, guid: 0aced88d52318a74f914f3ce0989be55, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &7748620521027082760
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: bells in the air-2_{7748620521027082760}
+  m_AudioClip: {fileID: 8300000, guid: 65eef103e96a567458670c613235e8ff, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8335386047702184865
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: what good is endlessness_{8335386047702184865}
+  m_AudioClip: {fileID: 8300000, guid: a4cf82f189dfabe41947829e71b2999f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &8939599829755430604
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: bells in the air-4_{8939599829755430604}
+  m_AudioClip: {fileID: 8300000, guid: a3bfe978ca27bc74fa9cec39908a8960, type: 3}
+  m_Volume: 0
+  m_Enabled: 1

@@ -52,10 +52,10 @@ public class NumbersRoomManager : MonoBehaviour
                 ? 0.3f 
                 : 1f;
 
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.Q))
             radio.Tune -= tuneSpeed * mult * Time.deltaTime;
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.E))
             radio.Tune += tuneSpeed * mult * Time.deltaTime;
 
         if (Input.GetKeyDown(KeyCode.Backspace))
