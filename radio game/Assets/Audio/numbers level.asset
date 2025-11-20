@@ -53,12 +53,13 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    gain: 100
+    gain: 500
     attenuation: 0
     forceGlobal: 1
     playOnInit: 1
     broadcasters: []
-    insulators: []
+    insulators:
+    - {fileID: 0}
     trackType: Station aka Multi-select
     track:
       rid: 769389085101916227
@@ -287,7 +288,7 @@ MonoBehaviour:
         proceduralType: 2
         duration: 0
         waveFrequency: 100
-        brownWalkPower: 0.749
+        brownWalkPower: 0.431
     - rid: 769389085101916238
       type: {class: StationRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
       data:

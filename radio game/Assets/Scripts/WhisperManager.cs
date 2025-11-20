@@ -27,6 +27,8 @@ public class WhisperManager : MonoBehaviour
     public void StartWhispers(LeverController _lever)
     {
         currentLever = _lever;
+        _lever.Show();
+
         PlaySources();
     }
 
@@ -34,6 +36,8 @@ public class WhisperManager : MonoBehaviour
     {
         leftSource.loop = false;
         rightSource.loop = false;
+
+        currentLever.Hide();
 
         currentLever = null;
     }
