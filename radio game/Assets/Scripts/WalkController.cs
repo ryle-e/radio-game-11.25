@@ -16,9 +16,14 @@ public class WalkController : MonoBehaviour
     [SerializeField] private float walkSpeed;
     [SerializeField] private float stepInterval;
 
+    [SerializeField] private float lookDistance = 1.5f;
+    [SerializeField] private LayerMask lookLayers;
+
     private bool isMoving;
     private float smoothMag;
     private float stepProg;
+
+    private LeverController lastLever;
 
 
     private void Start()
@@ -32,7 +37,23 @@ public class WalkController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        isMoving = false;
+        if (Physics.Raycast(camTransform.position, camTransform.forward, out RaycastHit hit, lookDistance, lookLayers))
+        {
+            lastLever = hit.collider.GetComponentInParent<LeverController>();
+
+            lastLever.Highlighted = true;
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                lastLever.Interact();
+            }
+        }
+        else if (lastLever != null)
+        {
+            lastLever.Highlighted = false;
+        }
+
+            isMoving = false;
 
         if (Input.mousePositionDelta != Vector3.zero)
         {

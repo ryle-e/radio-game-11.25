@@ -53,13 +53,12 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    gain: 500
+    gain: 100
     attenuation: 0
     forceGlobal: 1
     playOnInit: 1
     broadcasters: []
-    insulators:
-    - {fileID: 0}
+    insulators: []
     trackType: Station aka Multi-select
     track:
       rid: 769389085101916227

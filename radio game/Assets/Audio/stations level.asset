@@ -17,6 +17,51 @@ MonoBehaviour:
   forceClipSampleRate: 1
   forcedSampleRate: 0
   trackWs:
+  - id: silence buzzer
+    name: silence buzzer, 55.2 - 75.7
+    range: {x: 55.2, y: 75.7}
+    rangeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    gain: 20
+    attenuation: 0
+    forceGlobal: 1
+    playOnInit: 1
+    broadcasters: []
+    insulators: []
+    trackType: Procedural
+    track:
+      rid: 769389242980499521
   - id: station buzzer
     name: station buzzer, 55.2 - 75.7
     range: {x: 55.2, y: 75.7}
@@ -62,6 +107,51 @@ MonoBehaviour:
     trackType: Audio Clip
     track:
       rid: 769389174646636614
+  - id: silence cowbell
+    name: silence cowbell, 357.4 - 377.9
+    range: {x: 357.4, y: 377.9}
+    rangeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    gain: 50
+    attenuation: 0
+    forceGlobal: 1
+    playOnInit: 1
+    broadcasters: []
+    insulators: []
+    trackType: Procedural
+    track:
+      rid: 769389242980499524
   - id: station cowbell
     name: station cowbell, 357.4 - 377.9
     range: {x: 357.4, y: 377.9}
@@ -107,6 +197,51 @@ MonoBehaviour:
     trackType: Audio Clip
     track:
       rid: 769389174646636616
+  - id: silence ring
+    name: silence ring, 525.6 - 546.1
+    range: {x: 525.6, y: 546.1}
+    rangeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    gain: 50
+    attenuation: 0
+    forceGlobal: 1
+    playOnInit: 1
+    broadcasters: []
+    insulators: []
+    trackType: Procedural
+    track:
+      rid: 769389242980499526
   - id: station ring
     name: station ring, 525.6 - 546.1
     range: {x: 525.6, y: 546.1}
@@ -152,6 +287,51 @@ MonoBehaviour:
     trackType: Audio Clip
     track:
       rid: 769389174646636618
+  - id: silence siren
+    name: silence siren, 915.9 - 936.4
+    range: {x: 915.9, y: 936.4}
+    rangeCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    gain: 25
+    attenuation: 0
+    forceGlobal: 1
+    playOnInit: 1
+    broadcasters: []
+    insulators: []
+    trackType: Procedural
+    track:
+      rid: 769389242980499529
   - id: station siren
     name: station siren, 915.9 - 936.4
     range: {x: 915.9, y: 936.4}
@@ -224,7 +404,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    gain: 56
+    gain: 100
     attenuation: 0.869
     forceGlobal: 1
     playOnInit: 1
@@ -232,17 +412,10 @@ MonoBehaviour:
     insulators: []
     trackType: Procedural
     track:
-      rid: 769389085101916236
+      rid: 769389242980499527
   references:
     version: 2
     RefIds:
-    - rid: 769389085101916236
-      type: {class: ProceduralRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
-      data:
-        proceduralType: 2
-        duration: 0
-        waveFrequency: 100
-        brownWalkPower: 0.749
     - rid: 769389174646636614
       type: {class: ClipRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
       data:
@@ -259,3 +432,38 @@ MonoBehaviour:
       type: {class: ClipRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
       data:
         clip: {fileID: 8300000, guid: 1e2991a9c7147f844a4b242652c37117, type: 3}
+    - rid: 769389242980499521
+      type: {class: ProceduralRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
+      data:
+        proceduralType: 4
+        duration: 0
+        waveFrequency: 100
+        brownWalkPower: 0.5
+    - rid: 769389242980499524
+      type: {class: ProceduralRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
+      data:
+        proceduralType: 4
+        duration: 0
+        waveFrequency: 100
+        brownWalkPower: 0.5
+    - rid: 769389242980499526
+      type: {class: ProceduralRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
+      data:
+        proceduralType: 4
+        duration: 0
+        waveFrequency: 100
+        brownWalkPower: 0.5
+    - rid: 769389242980499527
+      type: {class: ProceduralRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
+      data:
+        proceduralType: 0
+        duration: 0
+        waveFrequency: 100
+        brownWalkPower: 0.5
+    - rid: 769389242980499529
+      type: {class: ProceduralRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
+      data:
+        proceduralType: 4
+        duration: 0
+        waveFrequency: 100
+        brownWalkPower: 0.5

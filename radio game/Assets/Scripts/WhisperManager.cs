@@ -38,6 +38,13 @@ public class WhisperManager : MonoBehaviour
         rightSource.loop = false;
 
         currentLever.Hide();
+        currentLever = null;
+    }
+
+    public void StopWhispersAudioOnly()
+    {
+        leftSource.loop = false;
+        rightSource.loop = false;
 
         currentLever = null;
     }
