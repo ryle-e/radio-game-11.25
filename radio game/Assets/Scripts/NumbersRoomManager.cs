@@ -1,9 +1,12 @@
+using DG.Tweening;
 using RyleRadio.Components;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 public class NumbersRoomManager : MonoBehaviour
@@ -15,6 +18,12 @@ public class NumbersRoomManager : MonoBehaviour
     [SerializeField] private RadioOutput radio;
     [SerializeField] private AudioMixer mixer;
     [SerializeField] private TMP_Text tuneIndicator;
+    [SerializeField] private GameObject blackCover;
+
+    [SerializeField] private ShakeController shake;
+    [SerializeField] private AudioSource incorrectAudio;
+    [SerializeField] private AudioSource completeAudio;
+    [SerializeField] private AudioSource exitAudio;
 
     [SerializeField] private List<TMP_Text> codeCards;
     [SerializeField] private List<AudioSource> cardAudios;
@@ -105,9 +114,32 @@ public class NumbersRoomManager : MonoBehaviour
         if (currentNum.Length == codeCards.Count)
         {
             if (currentNum == code)
-                Debug.Log("code correct!");
+                StartCoroutine(Correct());
             else
-                Debug.Log("code wrong!");
+                Incorrect();
         }
+    }
+
+    private void Incorrect()
+    {
+        incorrectAudio.Play();
+    }    
+
+    private IEnumerator Correct()
+    {
+        completeAudio.Play();
+
+        yield return new WaitForSeconds(0.5f);
+
+        exitAudio.Play();
+        DOVirtual.Float(0, 0.5f, 2f, f => shake.Magnitude = f);
+
+        yield return new WaitForSeconds(2);
+
+        blackCover.SetActive(true);
+
+        yield return new WaitForSeconds(0.5f);
+
+        SceneManager.LoadScene("StationsRoom", LoadSceneMode.Single);
     }
 }

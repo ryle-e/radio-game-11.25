@@ -89,6 +89,12 @@ public class LeverController : RyleRadio.Components.Base.RadioComponentDataAcces
         Hide(false);
     }
 
+    private void OnDestroy()
+    {
+        if (wrapper != null)
+            wrapper.Gain = wrapperGain;
+    }
+
     public void Show()
     {
         modelShake.Magnitude = .3f;
@@ -135,12 +141,12 @@ public class LeverController : RyleRadio.Components.Base.RadioComponentDataAcces
 
         whisperManager.StopWhispersAudioOnly();
 
-        leverPivot.DOLocalRotate(new Vector3(0, 0, -30), 1.48f).SetEase(Ease.InCubic).OnStepComplete(() =>
+        leverPivot.DOLocalRotate(new Vector3(0, 0, -30), fadeOutTime).SetEase(Ease.InCubic).OnStepComplete(() =>
         {
             if (!hasPlayedHit && leverPivot.localEulerAngles.z > 300 && leverPivot.localEulerAngles.z < 335) 
             { 
                 StartCoroutine(LeverHit()); 
-                wrapper.Gain = wrapperGain;
+                //wrapper.Gain = wrapperGain;
             }
         });
     }
