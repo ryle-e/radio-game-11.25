@@ -25,11 +25,15 @@ public class WalkController : MonoBehaviour
 
     private LeverController lastLever;
 
+    [HideInInspector] public bool canMove = true;
+
 
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        canMove = true;
 
         stepProg = stepInterval - Time.deltaTime / 2;
     }
@@ -37,6 +41,9 @@ public class WalkController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        if (!canMove)
+            return;
+
         if (Physics.Raycast(camTransform.position, camTransform.forward, out RaycastHit hit, lookDistance, lookLayers))
         {
             lastLever = hit.collider.GetComponentInParent<LeverController>();

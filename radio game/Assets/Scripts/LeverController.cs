@@ -171,6 +171,8 @@ public class LeverController : RyleRadio.Components.Base.RadioComponentDataAcces
         yield return new WaitForSeconds(3);
 
         Hide();
+
+        StartCoroutine(whisperManager.IncrementToEnding());
     }
 
     protected override void AssignToTrack(RadioTrackWrapper _track) { }

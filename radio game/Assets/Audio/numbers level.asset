@@ -243,7 +243,7 @@ MonoBehaviour:
         thresholdBeforeRepeats: 0
         stationTrackWs:
         - id: 
-          gain: 100
+          gain: 0
           startAndEndRests: {x: 0, y: 0}
           trackType: Audio Clip
           track:
@@ -273,7 +273,7 @@ MonoBehaviour:
     - rid: 769389085101916231
       type: {class: ClipRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
       data:
-        clip: {fileID: 8300000, guid: f04506bbc48a5ac40ab36c33cb6a2d80, type: 3}
+        clip: {fileID: 8300000, guid: d220b900f4be40c489b7ad6057d10e4b, type: 3}
     - rid: 769389085101916233
       type: {class: ProceduralRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
       data:
@@ -295,7 +295,7 @@ MonoBehaviour:
         thresholdBeforeRepeats: 0
         stationTrackWs:
         - id: tone
-          gain: 100
+          gain: 0
           startAndEndRests: {x: 0, y: 0}
           trackType: Audio Clip
           track:
@@ -323,7 +323,7 @@ MonoBehaviour:
           startAndEndRests: {x: 0, y: 0}
           trackType: Procedural
           track:
-            rid: 4160440379140997338
+            rid: 4160440400035184708
     - rid: 769389085101916240
       type: {class: ClipRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
       data:
@@ -331,7 +331,7 @@ MonoBehaviour:
     - rid: 769389085101916242
       type: {class: ClipRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
       data:
-        clip: {fileID: 8300000, guid: e460e8c145dc9e34db151684826f09f3, type: 3}
+        clip: {fileID: 8300000, guid: dcb89a802528a854495e4a090f51b641, type: 3}
     - rid: 769389085101916245
       type: {class: ClipRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
       data:
@@ -343,7 +343,7 @@ MonoBehaviour:
         thresholdBeforeRepeats: 0
         stationTrackWs:
         - id: silence
-          gain: 100
+          gain: 0
           startAndEndRests: {x: 0, y: 0}
           trackType: Audio Clip
           track:
@@ -379,7 +379,7 @@ MonoBehaviour:
     - rid: 769389085101916251
       type: {class: ClipRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
       data:
-        clip: {fileID: 8300000, guid: 09440bf5e61cddc4e85fae221540860c, type: 3}
+        clip: {fileID: 8300000, guid: 5da597db4ff03094ebc6fcc86237f2ca, type: 3}
     - rid: 769389085101916252
       type: {class: ProceduralRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
       data:
@@ -398,7 +398,7 @@ MonoBehaviour:
         thresholdBeforeRepeats: 0
         stationTrackWs:
         - id: 
-          gain: 100
+          gain: 0
           startAndEndRests: {x: 0, y: 0}
           trackType: Audio Clip
           track:
@@ -416,7 +416,7 @@ MonoBehaviour:
           track:
             rid: 769389085101916260
         - id: 
-          gain: 100
+          gain: 0
           startAndEndRests: {x: 0, y: 0}
           trackType: Audio Clip
           track:
@@ -438,7 +438,7 @@ MonoBehaviour:
     - rid: 769389085101916262
       type: {class: ClipRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
       data:
-        clip: {fileID: 8300000, guid: d4f2af2defa11a247af893a988b7d922, type: 3}
+        clip: {fileID: 8300000, guid: fdf36f58a03841d4facfa5f343a6e6ac, type: 3}
     - rid: 769389085101916264
       type: {class: ProceduralRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
       data:
@@ -462,10 +462,10 @@ MonoBehaviour:
       type: {class: ClipRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
       data:
         clip: {fileID: 8300000, guid: fdf36f58a03841d4facfa5f343a6e6ac, type: 3}
-    - rid: 4160440379140997338
+    - rid: 4160440400035184708
       type: {class: ProceduralRadioTrack, ns: RyleRadio.Tracks, asm: ryle-e.RyleRadio.Core}
       data:
         proceduralType: 4
-        duration: 1.5
+        duration: 2
         waveFrequency: 100
         brownWalkPower: 0.5

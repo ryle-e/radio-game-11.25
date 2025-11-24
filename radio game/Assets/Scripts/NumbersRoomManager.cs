@@ -50,6 +50,9 @@ public class NumbersRoomManager : MonoBehaviour
 
     private void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
         UpdateEffects(radio.Tune);
     }
 
@@ -139,6 +142,9 @@ public class NumbersRoomManager : MonoBehaviour
         blackCover.SetActive(true);
 
         yield return new WaitForSeconds(0.5f);
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
 
         SceneManager.LoadScene("StationsRoom", LoadSceneMode.Single);
     }
