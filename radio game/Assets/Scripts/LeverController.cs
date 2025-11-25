@@ -92,7 +92,7 @@ public class LeverController : RyleRadio.Components.Base.RadioComponentDataAcces
     private void OnDestroy()
     {
         if (wrapper != null)
-            wrapper.Gain = wrapperGain;
+            wrapper.Gain100 = wrapperGain;
     }
 
     public void Show()
@@ -131,9 +131,9 @@ public class LeverController : RyleRadio.Components.Base.RadioComponentDataAcces
 
         if (data.TryGetTrack(track, out wrapper, false))
         {
-            wrapperGain = wrapper.Gain;
+            wrapperGain = wrapper.Gain100;
 
-            DOVirtual.Float(wrapper.Gain, 0, fadeOutTime, f => wrapper.Gain = f).SetEase(Ease.InCubic);
+            DOVirtual.Float(wrapper.Gain100, 0, fadeOutTime, f => wrapper.Gain100 = f).SetEase(Ease.InCubic);
         }
 
         interactAudio.Play();
