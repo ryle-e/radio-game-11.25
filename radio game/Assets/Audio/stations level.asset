@@ -100,7 +100,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     gain: 20
     attenuation: 0
-    forceGlobal: 1
+    forceGlobal: 0
     playOnInit: 1
     broadcasters: []
     insulators: []
@@ -190,7 +190,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     gain: 50
     attenuation: 0
-    forceGlobal: 1
+    forceGlobal: 0
     playOnInit: 1
     broadcasters: []
     insulators: []
@@ -280,7 +280,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     gain: 50
     attenuation: 0
-    forceGlobal: 1
+    forceGlobal: 0
     playOnInit: 1
     broadcasters: []
     insulators: []
@@ -370,7 +370,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     gain: 25
     attenuation: 0
-    forceGlobal: 1
+    forceGlobal: 0
     playOnInit: 1
     broadcasters: []
     insulators: []

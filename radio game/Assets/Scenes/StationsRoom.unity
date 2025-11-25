@@ -1128,7 +1128,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 8f180c79af6cead468425ba084f0b875, type: 3}
+  m_Resource: {fileID: 8300000, guid: b980b7dec2786df41b385f9f3006ddbd, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.35
   m_Pitch: 1
@@ -13686,6 +13686,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.027
       objectReference: {fileID: 0}
+    - target: {fileID: 3751359845880915989, guid: 3d8b8fbab45624144b14234625c34fd6, type: 3}
+      propertyPath: affectedTracks
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7868613750586086135, guid: 3d8b8fbab45624144b14234625c34fd6, type: 3}
       propertyPath: m_Name
       value: bell lever
@@ -24530,6 +24534,11 @@ MonoBehaviour:
   mixer: {fileID: 24100000, guid: bfad047bf2a3703468c629bd7326da12, type: 2}
   tuneIndicator: {fileID: 1482258349}
   blackCover: {fileID: 0}
+  hintsSignMat: {fileID: 0}
+  hintText: {fileID: 0}
+  hints: []
+  hintsFlashDelay: 0
+  hintsLitColor: {r: 0, g: 0, b: 0, a: 0}
   shake: {fileID: 0}
   incorrectAudio: {fileID: 0}
   completeAudio: {fileID: 0}
@@ -43824,6 +43833,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.027
       objectReference: {fileID: 0}
+    - target: {fileID: 3751359845880915989, guid: 3d8b8fbab45624144b14234625c34fd6, type: 3}
+      propertyPath: affectedTracks
+      value: 128
+      objectReference: {fileID: 0}
     - target: {fileID: 7868613750586086135, guid: 3d8b8fbab45624144b14234625c34fd6, type: 3}
       propertyPath: m_Name
       value: siren lever
@@ -45031,6 +45044,7 @@ MonoBehaviour:
   lookLayers:
     serializedVersion: 2
     m_Bits: 128
+  yRotLimits: {x: 0, y: 0}
   canMove: 0
 --- !u!143 &2004677689
 CharacterController:
@@ -46298,6 +46312,10 @@ PrefabInstance:
     - target: {fileID: 3572602086804180785, guid: 3d8b8fbab45624144b14234625c34fd6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.027
+      objectReference: {fileID: 0}
+    - target: {fileID: 3751359845880915989, guid: 3d8b8fbab45624144b14234625c34fd6, type: 3}
+      propertyPath: affectedTracks
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 7868613750586086135, guid: 3d8b8fbab45624144b14234625c34fd6, type: 3}
       propertyPath: m_Name
@@ -47795,6 +47813,10 @@ PrefabInstance:
     - target: {fileID: 3572602086804180785, guid: 3d8b8fbab45624144b14234625c34fd6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.027
+      objectReference: {fileID: 0}
+    - target: {fileID: 3751359845880915989, guid: 3d8b8fbab45624144b14234625c34fd6, type: 3}
+      propertyPath: affectedTracks
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7868613750586086135, guid: 3d8b8fbab45624144b14234625c34fd6, type: 3}
       propertyPath: m_Name

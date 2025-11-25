@@ -76,8 +76,8 @@ public class ShakeController : MonoBehaviour
     {
         // =========== TESTING =========== 
         // shakes everything
-        if (Input.GetKeyDown(KeyCode.C))
-            Magnitude = 1;
+        //if (Input.GetKeyDown(KeyCode.C))
+        //    Magnitude = 1;
         // =========== =========== 
 
         if (Magnitude == 0)

@@ -19,6 +19,8 @@ public class WalkController : MonoBehaviour
     [SerializeField] private float lookDistance = 1.5f;
     [SerializeField] private LayerMask lookLayers;
 
+    [SerializeField] private Vector2 yRotLimits;
+
     private bool isMoving;
     private float smoothMag;
     private float stepProg;
