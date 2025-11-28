@@ -98,7 +98,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    gain: 20
+    gain: 25
     attenuation: 0
     forceGlobal: 0
     playOnInit: 1

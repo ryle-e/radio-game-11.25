@@ -1,4 +1,6 @@
+using DG.Tweening;
 using UnityEngine;
+using static UnityEngine.InputSystem.Controls.AxisControl;
 
 public class WalkController : MonoBehaviour
 {
@@ -19,7 +21,7 @@ public class WalkController : MonoBehaviour
     [SerializeField] private float lookDistance = 1.5f;
     [SerializeField] private LayerMask lookLayers;
 
-    [SerializeField] private Vector2 yRotLimits;
+    [SerializeField] private Vector2 camRotLimits;
 
     private bool isMoving;
     private float smoothMag;
@@ -68,6 +70,12 @@ public class WalkController : MonoBehaviour
         {
             character.transform.Rotate(Vector3.up, bodyLookSpeed * Input.mousePositionDelta.x);
             camTransform.Rotate(Input.mousePositionDelta.y * -lookSpeed, 0, 0);
+
+            camTransform.localEulerAngles = new Vector3
+            (
+                InverseClamp(camTransform.localEulerAngles.x, camRotLimits.x, camRotLimits.y),
+                0, 0
+            );
         }
 
         if (Input.GetKey(KeyCode.W))
@@ -112,5 +120,15 @@ public class WalkController : MonoBehaviour
         {
             stepProg = stepInterval - Time.deltaTime/2;
         }
+    }
+
+    // clamps a unit to be outside of a range- e.g a rotation that is locked outside of the angles (90, 270)
+    public static float InverseClamp(float _value, float _max, float _min)
+    {
+        float nearest = Mathf.Abs(_max - _value) > Mathf.Abs(_min - _value) ? _min : _max;
+
+        return (_value < _min) ? _value
+            : (_value > _max) ? _value
+            : nearest;
     }
 }

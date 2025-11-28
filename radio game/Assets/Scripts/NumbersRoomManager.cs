@@ -21,6 +21,9 @@ public class NumbersRoomManager : MonoBehaviour
     [SerializeField] private AudioMixer mixer;
     [SerializeField] private TMP_Text tuneIndicator;
     [SerializeField] private GameObject blackCover;
+    [SerializeField] private AudioSource hintTypeAudio;
+    [SerializeField] private AudioSource hintTypeAudio2;
+    [SerializeField] private GameObject volumeSettings;
 
     [Header("Hints")]
     [SerializeField] private Material hintsSignMat;
@@ -73,7 +76,7 @@ public class NumbersRoomManager : MonoBehaviour
         Cursor.visible = false;
 
         hintsUnlitColor = hintsSignMat.color;
-        StartCoroutine(HintFlashDelay());
+        hintFlashRoutine = StartCoroutine(HintFlashDelay());
 
         UpdateEffects(radio.Tune);
     }
@@ -103,6 +106,22 @@ public class NumbersRoomManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Backspace))
             Backspace();
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            volumeSettings.SetActive(!volumeSettings.activeInHierarchy);
+
+            if (volumeSettings.activeInHierarchy)
+            {
+                Cursor.lockState = CursorLockMode.Confined;
+                Cursor.visible = true;
+            }
+            else 
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            }
+        }
 
 
         foreach (KeyCode key in NUM_KEYS)
@@ -188,13 +207,23 @@ public class NumbersRoomManager : MonoBehaviour
 
         hintsUsed++;
 
-        if (hintsUsed >= hints.Count)
-            StopCoroutine(hintFlashRoutine);
+        if (hintsUsed < hints.Count)
+        {
+            if (hintFlashRoutine != null)
+                StopCoroutine(hintFlashRoutine);
 
-        currentHintFlashDelay = 15;
+            hintFlashRoutine = StartCoroutine(HintFlashDelay());
+        }
+        else
+        {
+            if (hintFlashRoutine != null)
+                StopCoroutine(hintFlashRoutine);
+        }
 
         if (hintTypeRoutine != null)
             StopCoroutine(hintTypeRoutine);
+
+        hintsSignMat.color = hintsUnlitColor;
 
         hintTypeRoutine = StartCoroutine(TypeHint(hints[hintsUsed - 1]));
     }
@@ -207,6 +236,7 @@ public class NumbersRoomManager : MonoBehaviour
         while (hintText.text.Length > 0)
         {
             hintText.text = hintText.text[0..(hintText.text.Length - 1)];
+            hintTypeAudio2.Play();
 
             yield return new WaitForSeconds(hintBackspaceTime);
         }
@@ -217,54 +247,25 @@ public class NumbersRoomManager : MonoBehaviour
             hintText.text = _text[0..prog];
             prog++;
 
+            hintTypeAudio.Play();
+
             yield return new WaitForSeconds(hintTypeTime);
         }
     }
 
     private IEnumerator HintFlashDelay()
     {
-        float hintFlashProg = 1;
+        currentHintFlashDelay = hintsFlashDelay;
 
-        while (true)
+        while (currentHintFlashDelay > 0)
         {
+            currentHintFlashDelay -= Time.deltaTime;
+
             yield return null;
-
-            while (currentHintFlashDelay > 0)
-            {
-                currentHintFlashDelay -= Time.deltaTime;
-
-                yield return null;
-                continue;
-            }
-
-            if (hintFlashProg > 0)
-            {
-                hintFlashProg = Mathf.Max(0, hintFlashProg - Time.deltaTime);
-                hintsSignMat.color = hintsLitColor;
-
-                if (hintFlashProg > 0)
-                    continue;
-                else
-                {
-                    hintFlashProg = -Random.Range(0.65f, 2f);
-                    continue;
-                }
-            }
-
-            else if (hintFlashProg < 0)
-            {
-                hintFlashProg = Mathf.Min(0, hintFlashProg + Time.deltaTime);
-                hintsSignMat.color = hintsUnlitColor;
-
-                if (hintFlashProg < 0)
-                    continue;
-                else
-                {
-                    hintFlashProg = Random.Range(0.15f, 1f);
-                    continue;
-                }
-            }
-
         }
+
+        hintsSignMat.color = hintsLitColor;
+
+        hintFlashRoutine = null;
     }
 }

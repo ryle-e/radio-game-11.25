@@ -18,8 +18,8 @@ MonoBehaviour:
   forcedSampleRate: 0
   trackWs:
   - id: station0
-    name: station0, 372.4 - 382.4
-    range: {x: 372.4, y: 382.4}
+    name: station0, 555.4 - 565.4
+    range: {x: 555.4, y: 565.4}
     rangeCurve:
       serializedVersion: 2
       m_Curve:
@@ -63,8 +63,8 @@ MonoBehaviour:
     track:
       rid: 769389085101916227
   - id: station1
-    name: station1, 589.1 - 599.1
-    range: {x: 589.1, y: 599.1}
+    name: station1, 368.9 - 378.9
+    range: {x: 368.9, y: 378.9}
     rangeCurve:
       serializedVersion: 2
       m_Curve:
@@ -108,8 +108,8 @@ MonoBehaviour:
     track:
       rid: 769389085101916238
   - id: station2
-    name: station2, 933.4 - 943.4
-    range: {x: 933.4, y: 943.4}
+    name: station2, 790.5989 - 800.5989
+    range: {x: 790.5, y: 800.5}
     rangeCurve:
       serializedVersion: 2
       m_Curve:

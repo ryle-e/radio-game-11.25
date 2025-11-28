@@ -16,6 +16,8 @@ public class VolumeOptions : MonoBehaviour
     [SerializeField] private AudioSource fxAudio;
     [SerializeField] private AudioSource voiceAudio;
 
+    private bool playAudio = false;
+
     private void Start()
     {
         mixer.GetFloat("masterVol", out float masterVol);
@@ -29,6 +31,8 @@ public class VolumeOptions : MonoBehaviour
         fxSlider.value = fxVol;
         voiceSlider.value = voiceVol;
         ambienceSlider.value = ambienceVol;
+
+        playAudio = true;
     }
 
     public void SetMaster(float _vol)
@@ -44,13 +48,17 @@ public class VolumeOptions : MonoBehaviour
     public void SetFX(float _vol)
     {
         mixer.SetFloat("fxVol", _vol);
-        fxAudio.Play();
+
+        if (playAudio)
+            fxAudio.Play();
     }
 
     public void SetVoice(float _vol)
     {
         mixer.SetFloat("voiceVol", _vol);
-        voiceAudio.Play();
+
+        if (playAudio)
+            voiceAudio.Play();
     }
 
     public void SetAmbience(float _vol)

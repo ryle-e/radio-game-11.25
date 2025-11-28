@@ -709,7 +709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: a5ae14167db5855498e9570ccc3b181b, type: 2}
   affectedTracks: 0
-  broadcastRadius: {x: 2, y: 12}
+  broadcastRadius: {x: 2.5, y: 12}
   broadcastPowers: {x: 0.5, y: 1}
   distanceFalloff:
     serializedVersion: 2
@@ -717,12 +717,12 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: -2.937868
+      outSlope: -2.937868
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0
+      outWeight: 0.10178117
     - serializedVersion: 3
       time: 1
       value: 0

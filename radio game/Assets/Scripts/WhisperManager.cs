@@ -86,6 +86,7 @@ public class WhisperManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.P))
         {
+            return;
             StartCoroutine(IncrementToEnding());
             StartCoroutine(IncrementToEnding());
             StartCoroutine(IncrementToEnding());
@@ -99,7 +100,7 @@ public class WhisperManager : MonoBehaviour
 
         if (leversPulled >= 4)
         {
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(3f);
 
             radioSource.volume = 0;
 

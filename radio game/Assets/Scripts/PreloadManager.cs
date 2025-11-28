@@ -15,6 +15,9 @@ public class PreloadManager : MonoBehaviour
     private void Start()
     {
         initialClipCount = clips.Count;
+
+        foreach (AudioClip clip in clips)
+            clip.LoadAudioData();
     }
 
     private void Update()
